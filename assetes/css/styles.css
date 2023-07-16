@@ -682,6 +682,8 @@ table {
     border: 2px solid var(--dark-25, rgba(0, 0, 0, 0.25));
 }
 
+
+
 .banner .image-product img {
     display: flex;
     width: 424px;
@@ -878,7 +880,47 @@ table {
     flex-direction: column;
     align-items: center;
     gap: 18px;
+    position: relative;
 }
+.grid-products .products .card-products .ribbon {
+    position: absolute;
+    top:22px;
+    left: 0px;
+    width: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    flex-shrink: 0;
+    background: var(--black, #1E2832);
+    color: var(--white, #FFF);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.grid-products .products .card-products .ribbon-hot {
+    position: absolute;
+    top:22px;
+    left: 0px;
+    width: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    flex-shrink: 0;
+    background: var(--primary, #FF6F61);
+    color: var(--white, #FFF);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
 .grid-products .products .card-products img {
     object-fit: cover;
 }
@@ -905,12 +947,27 @@ table {
     display: flex;
     justify-content: space-between;
 }
-.grid-products .products .card-products .bot-card .price:first-child p {
+.grid-products .products .card-products .bot-card .price span {
+    margin-left: 125px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration-line: strikethrough;
     color: var(--dark-50, rgba(0, 0, 0, 0.50));
 }
+.grid-products .products .card-products .bot-card .price p:first-child {
+    color: var(--dark-50, rgba(0, 0, 0, 0.50));
+    font-weight: 400;
+}
 
-.grid-products .products .card-products .bot-card .price:last-child p {
+.grid-products .products .card-products .bot-card .price p:last-child {
     color: var(--dark, #000);
+    font-weight: 600;
+    font-size: 14px;
+}
+.grid-products .products .card-products .bot-card .price h5 {
+    color: var(--primary, #FF6F61);
+    font-weight: 600;
+    font-size: 16px;
 }
 
 
