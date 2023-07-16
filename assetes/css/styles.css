@@ -1218,6 +1218,10 @@ table {
     object-fit: cover;
 }
 
+.newsletter-instagram  .newletter {
+    margin-bottom: 100px;
+    width: 760px;
+}
 
 .newsletter-instagram .section-title {
     color: var(--dark, #000);
