@@ -948,7 +948,8 @@ table {
     justify-content: space-between;
 }
 .grid-products .products .card-products .bot-card .price span {
-    margin-left: 125px;
+    position: absolute;
+    right: 72px;
     font-size: 14px;
     font-weight: 600;
     text-decoration: line-through;
@@ -1177,7 +1178,7 @@ table {
 
 .slider-product .products .card-products .bot-card .price {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
 .slider-product .products .card-products .bot-card .price:first-child p {
     color: var(--dark-50, rgba(0, 0, 0, 0.50));
